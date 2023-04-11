@@ -35,8 +35,11 @@ const Navbar = () => {
         <TbMenu2 className="text-3xl" />
       </div>
 
-      <div onClick={() => toggleMenu()} className={`overlay ${showMenu && 'opacity-0 hidden'} absolute w-full h-full bg-[#00000094] left-0 top-0 z-40 `}></div>
-      <div className={`link ${showMenu ? '-left-[100%]' : 'left-0'} duration-300 left flex gap-5 bg-black text-white w-[90%] h-screen fixed left-0 top-0 z-50`}>
+      <div onClick={() => toggleMenu()} className={`overlay ${showMenu && ' opacity-0 hidden'} absolute w-full h-full bg-[#00000094] left-0 top-0 z-40 `}></div>
+      <div
+        className={`link ${
+          showMenu ? '-left-[100%]' : 'left-0'
+        } duration-300 md:hidden xl:hidden lg:hidden left flex gap-5 bg-black text-white w-[90%] h-screen fixed left-0 top-0 z-50`}>
         <div className="holder p-4 flex flex-col gap-3 mt-10 ">
           <h1 className="text-4xl text-green-300 uppercase underline mb-4">Menu</h1>
           <Link href="/" className="text-3xl flex gap-2 place-items-center text-yellow-300 hover:ml-4 hover:text-white duration-300 w-fit uppercase">
