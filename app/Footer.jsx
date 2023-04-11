@@ -6,8 +6,8 @@ import { AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="footer bg-black pt-10 pb-4">
-      <div className="flex max-w-[1200px] mb-6 mx-auto gap-8  text-white justify-between">
+    <div className="footer  bg-black pt-10 pb-4 ">
+      <div className="grid grid-cols-auto-small p-4 max-w-[1200px] mb-6 mx-auto gap-8  text-white justify-between">
         <div className="col">
           <Link className="block font-bold mb-4" href="/">
             Catalog
@@ -75,21 +75,21 @@ const Footer = () => {
             +212 693 485 629
           </Link>
           <div className="media my-4 flex gap-4 justify-around">
-            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full border-2 border-white" href="/">
+            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full md:border-2 xl:border-2 lg:border-2 border-white" href="/">
               <FaFacebookF />
             </Link>
-            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full border-2 border-white" href="/">
+            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full md:border-2 xl:border-2 lg:border-2 border-white" href="/">
               <AiOutlineTwitter />
             </Link>
-            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full border-2 border-white" href="/">
+            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full md:border-2 xl:border-2 lg:border-2 border-white" href="/">
               <BsTelegram />
             </Link>
-            <Link className="h-10 w-10 flex justify-center place-items-center rounded-full border-2 border-white" href="/">
+            <Link className="h-10  w-10 flex justify-center place-items-center rounded-full md:border-2 xl:border-2 lg:border-2 border-white" href="/">
               <AiFillYoutube />
             </Link>
           </div>
           <div className="span mb-4 block">Contact Us</div>
-          <input type="text" className="outline-none bg-transparent border-white rounded-lg border p-2 px-4" placeholder="left us a message" />
+          <input type="text" className="outline-none w-full bg-transparent border-white rounded-lg border p-2 px-4" placeholder="left us a message" />
         </div>
       </div>
       <div className="last border-t-2 border-t-white border-dashed text-white text-center pt-6">Copyright © 1999-2023 Boardify. All rights reserved.</div>

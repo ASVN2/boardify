@@ -6,7 +6,7 @@ const ListPodact = ({ data, title, end, start }) => {
   return (
     <div className="list mt-12">
       <h1 className="text-4xl mb-3 font-bold">{title}</h1>
-      <div class="grid grid-cols-4 gap-4 ">
+      <div class="grid grid-cols-auto-res gap-4 ">
         {data.record.prodacts.slice(start, end).map((prodact) => {
           return <ProdactCard prodact={prodact} />;
         })}

@@ -8,13 +8,13 @@ import img6 from '../public/brands/06.png';
 
 const Brands = () => {
   return (
-    <div className="flex gap-5 justify-around place-items-center my-24 flex-wrap">
-      <Image className="max-w-[200px] h-fit" src={img1} alt="brad-1" />
-      <Image className="max-w-[200px] h-fit" src={img2} alt="brad-2" />
-      <Image className="max-w-[200px] h-fit" src={img3} alt="brad-3" />
-      <Image className="max-w-[200px] h-fit" src={img4} alt="brad-4" />
-      <Image className="max-w-[200px] h-fit" src={img5} alt="brad-5" />
-      {/* <Image className="max-w-[200px] h-fit" src={img6} alt="brad-6" /> */}
+    <div className="grid grid-cols-auto-small gap-5 justify-around place-items-center my-24 ">
+      <Image className="" src={img1} alt="brad-1" />
+      <Image className="" src={img2} alt="brad-2" />
+      <Image className="" src={img3} alt="brad-3" />
+      <Image className="" src={img4} alt="brad-4" />
+      <Image className="" src={img5} alt="brad-5" />
+      <Image className="" src={img6} alt="brad-6" />
     </div>
   );
 };

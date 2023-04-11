@@ -4,7 +4,7 @@ import { HiOutlineLocationMarker } from 'react-icons/hi';
 
 const Overbar = () => {
   return (
-    <div className="flex justify-between place-items-center my-4">
+    <div className="hidden md:flex lg:flex xl:flex justify-between place-items-center my-4">
       <div className="flex place-items-center gap-2">
         <HiOutlineLocationMarker /> Morocco
         <p className="text-gray-400">+212 693 485 629</p>

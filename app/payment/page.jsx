@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Brands = () => {
   return (
-    <div class="max-w-2xl mx-auto flex flex-col justify-center h-screen">
+    <div class="max-w-2xl mx-auto flex flex-col justify-center h-screen px-6">
       <Link
         href="/paymentDone"
         type="button"
