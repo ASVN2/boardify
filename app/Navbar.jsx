@@ -13,7 +13,7 @@ import { BiRightArrow } from 'react-icons/bi';
 import Link from 'next/link';
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(null);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
